@@ -3,9 +3,9 @@
 ## Virtual environment
 
 ```bash
-pip install virtualenv
 virtualenv venv
 source venv/bin/activate
 make install
-python manage.py runserver
+export FLASK_APP=app
+flask run
 ```
